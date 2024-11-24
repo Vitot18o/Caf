@@ -1,38 +1,61 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Contato</title>
-    </head>
-    <body bgcolor="#FFE4B5">
-        <h3><center><a href="index.html">Voltar para página inicial</a></center></h3>
-        <h1>Contato</h1>
-        <h3>Entre em contato conosco sobre qualquer coisa relacionada à nossa empresa ou serviços.
-            Faremos o possível para retornar a você o mais breve possível.</h3>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <div class="logo" >
+        <h1>Padaria Doce Sabor</h1>
+        <p>Panificadora e Gastronomia</p>
+    </div>
+    <div class="navbar">
+        <div class="logo">
+        </div>
+        <div class="nav-links">
+            <a class="Página Inicial" href="index.html"><i class="fa fa-user"></i>🏠 Página Inicial</a>
+            <a class="Cardapio" href="cardapio.html"><i class="fa fa-heart"></i>🧾 Cardapio</a>
+            <a class="Receitas"href="cadastro.html"><i class="fa fa-shopping-bag"></i>👨‍🍳 Receitas</a>
+            <a class="Parcerias" href="menu.html"><i class="fa fa-shopping-cart"></i>👥 Parcerias</a>
+            <a class="Currículo"href="clientes.html"><i class="fa fa-user"></i>📄 Currículo</a>
+        </div>
+    </div> 
+    <main class="container">
+        <section class="frase">
+            <h1>Contato</h1>
+            <p>Entre em contato conosco sobre qualquer coisa relacionada à nossa empresa ou serviços. Faremos o possível para retornar a você o mais breve possível.</p>
+
             <form>
                 <label>Nome</label>
-                <input type="text" name="Nome" size="30">
-                <br><br>
+                <input type="text" id="nome" name="Nome" placeholder="Digite seu nome" required>
+
                 <label>Número de telefone</label>
-                <input type="text" name="Telefone">
-                <br><br>
+                <input type="text" id="telefone" name="Telefone" placeholder="Digite seu telefone">
+
                 <label>E-mail</label>
-                <input type="email" name="E-mail" size="30">
-                <br><br>
-                <textarea name="Comentário" cols="35" rows="10">
-                    Faça um pergunta ou deixe uma sugestão para nossa padaria
-                </textarea>
-                <br><br>
-                <input type="submit" name="Enviar"><input type="reset" name="Limpar" value="Limpar">
+                <input type="email" id="email" name="E-mail" placeholder="Digite seu e-mail" required>
+
+                <label>Comentário</label>
+                <textarea id="comentario" name="Comentário" placeholder="Faça uma pergunta ou deixe uma sugestão"></textarea>
+
+                <div class="botão">
+                    <input type="submit" value="Enviar">
+                </div>
             </form>
+        </section>
+
+        <section class="informações">
             <h2>Padaria Doce Sabor</h2>
-            <h3>Localização - CLS 113 Bloco D, Loja 35/36 - Asa Sul</h3>
-            <a href="https://www.google.com.br/maps/dir//Padaria+Doce+Sabor,+Inhumas+-+GO/@-16.336475,-49.545221,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x935dd7d896790489:0x19291c3a874d6ad1!2m2!1d-49.5040189!2d-16.3364507!3e3?entry=ttu&g_ep=EgoyMDI0MDkyNC4wIKXMDSoASAFQAw%3D%3D">Localização</a>
-            <h3>Telefone - (61) 5124-1512</h3>
-            <h3>E-mail - padariadocesabor@gmail.com</h3>
+            <p>📍 Padaria Doce Sabor- DF, CNB 12 Bloco H, Loja 15 </p>
+            <a href="https://www.google.com.br/maps" class="map-link">🗺️ Ver Localização no Google Maps</a>
+            <p>📞 Telefone - (61) 5124-1512</p>
+            <p>📧 E-mail - <a href="mailto:padariadocesabor@gmail.com">padariadocesabor@gmail.com</a></p>
+        </section>
+    </main>
+</body>
 
-                
-
-        <br><br><br>
-        
-    </body>
 </html>
