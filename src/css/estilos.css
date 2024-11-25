@@ -415,4 +415,45 @@ a.back-link:hover {
     text-align: center;
 }
 
+.menu-link:hover {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    color: #000;
+}
+
+
+.curriculo {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.curriculo h1, .curriculo h2 {
+    color: #2D2A26;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.curriculo section {
+    margin-bottom: 20px;
+}
+
+.curriculo p {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .curriculo {
+        padding: 15px;
+    }
+
+    .navbar .menu-icons h1 {
+        font-size: 0.9em;
+    }
+}
 

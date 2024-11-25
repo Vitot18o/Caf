@@ -1,0 +1,219 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    line-height: 1.6;
+    color: #000000;
+    background-color: #ffff;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffff;
+    border-bottom: 2px solid #000000ef;
+}
+
+.logo h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #2D2A26;
+}
+
+.logo p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #2D2A26;
+    text-align: left;
+}
+
+
+.menu-icons {
+    display: flex;
+    gap: 10px;
+    margin-right: 10rem;
+}
+
+.menu-link {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-link:hover {
+    background-color: #f0f0f0;
+    
+    color: #000;
+    
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-image {
+    display: relative;
+}
+
+.bolo {
+    width: 75%;
+
+}
+
+
+section {
+    margin: 20px 0;
+}
+
+.welcome {
+    padding-top: 6rem;
+}
+
+.welcome h2 {
+    font-family: Arial, sans-serif;
+    color: #2D2A26;
+    font-size: 44px;
+    font-weight: 800;
+
+}
+
+.welcome p {
+    font-family: Arial, sans-serif;
+
+}
+
+.butao-contato {
+    background-color: #2D2A26;
+    text-decoration: none;
+    color: #FBEDCD;
+    font-family: Arial, sans-serif;
+    margin-top: 1.5rem;
+    padding: 0.4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 3px;
+}
+
+.butao-cadastro {
+    font-family: Arial, sans-serif;
+    padding: 0.4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+
+.mission {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.missao h2 {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #2D2A26;
+    border-right: 1px solid #2D2A26;
+
+    padding-right: 8rem;
+}
+
+.missao p {
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    font-size: 50;
+    color: #2D2A26;
+
+}
+
+.offerings-gallery-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px; 
+    padding-left: 8rem;
+    padding-top: 10rem;
+}
+
+.offerings {
+    flex: 1;
+    justify-content: space-around;
+}
+
+.offerings h2 {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    color: #2D2A26;
+    font-weight: 800;
+    padding-top: 6rem;
+}
+
+.offerings ul {
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+.offerings ul li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #272727;
+}
+
+.gallery {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #2D2A26 ;
+    flex: 1;
+    text-align: center;
+    padding-bottom: 0.5;
+}
+
+.gallery img {
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.visit-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;  
+    gap: 10px;           
+    padding: 20px;
+        
+}
+
+.visit-us h2{
+    font-size: 44px;
+    color: #2D2A26;
+    font-weight: bold;
+}
+
+.visit-us p{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 400;
+}

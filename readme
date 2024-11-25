@@ -1,0 +1,87 @@
+
+
+---
+
+# 🖥️ Primeiro Projeto com HTML e CSS
+
+Este é meu primeiro projeto utilizando **HTML** e **CSS**, onde desenvolvi uma página web para apresentar meu currículo e as informações sobre minha experiência e objetivos profissionais. O foco principal foi a estruturação do conteúdo com HTML e a estilização básica com CSS, aprendendo conceitos fundamentais de desenvolvimento web.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **HTML5**: Para a estruturação da página.
+- **CSS3**: Para a estilização e design responsivo.
+
+---
+
+## 📄 Funcionalidades do Projeto
+
+- Página de **currículo pessoal**, contendo:
+  - Dados de contato.
+  - Objetivos profissionais.
+  - Qualificações.
+  - Formação acadêmica.
+  - Cursos adicionais.
+  - Idiomas.
+- Design responsivo para diferentes tamanhos de tela.
+- Barra de navegação com links para outras páginas (exemplo: página inicial, contato, cardápio).
+
+---
+
+## 📝 Estrutura de Arquivos
+
+```
+📂 Meu-Projeto
+├── 📂 src
+│   ├── 📂 css
+│   │   └── estilos.css   # Arquivo de estilização
+├── index.html            # Página principal
+└── README.md             # Este arquivo
+```
+
+---
+
+## 🌟 O que Aprendi
+
+- Como estruturar uma página web utilizando HTML5.
+- Aplicar estilos básicos utilizando CSS.
+- Criar um layout limpo e organizado.
+- Tornar a página parcialmente responsiva utilizando media queries.
+- Organizar pastas e arquivos de forma profissional para projetos web.
+
+---
+
+## 📷 Demonstração do Projeto
+
+Inclua aqui uma captura de tela do seu projeto ou descreva como ele se parece. Se for possível, publique o projeto utilizando plataformas como GitHub Pages e insira o link:
+
+[Veja a demonstração aqui!](#)
+
+---
+
+## 📌 Como Executar o Projeto
+
+1. Clone este repositório ou baixe o código fonte.
+2. Abra o arquivo `index.html` em qualquer navegador de sua preferência.
+3. Navegue pela página e explore o conteúdo.
+
+---
+
+## 📚 Próximos Passos
+
+- Melhorar a responsividade para dispositivos móveis.
+- Adicionar mais páginas ao projeto (exemplo: projetos anteriores, hobbies).
+- Explorar frameworks como **Bootstrap** para facilitar a estilização.
+- Aprender **JavaScript** para tornar a página mais interativa.
+
+---
+
+## ✍️ Autor
+
+Desenvolvido por **Vítor Vieira de Abreu Cunha**  
+📧 [abreuvitorvieira@gmail.com](mailto:abreuvitorvieira@gmail.com)
+
+---
+
+Adicione este arquivo no diretório do seu projeto com o nome `README.md`! Se você futuramente publicá-lo no GitHub, ele será exibido automaticamente como a descrição principal do repositório. 🚀
