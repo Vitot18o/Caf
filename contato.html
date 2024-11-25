@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -9,25 +9,27 @@
 </head>
 
 <body>
-    <div class="logo" >
-        <h1>Padaria Doce Sabor</h1>
-        <p>Panificadora e Gastronomia</p>
-    </div>
-    <div class="navbar">
+    <header class="navbar">
         <div class="logo">
+            <h1>Padaria Doce Sabor</h1>
+            <p>Panificadora e Gastronomia</p>
         </div>
-        <div class="nav-links">
-            <a class="Página Inicial" href="index.html"><i class="fa fa-user"></i>🏠 Página Inicial</a>
-            <a class="Cardapio" href="cardapio.html"><i class="fa fa-heart"></i>🧾 Cardapio</a>
-            <a class="Receitas"href="cadastro.html"><i class="fa fa-shopping-bag"></i>👨‍🍳 Receitas</a>
-            <a class="Parcerias" href="menu.html"><i class="fa fa-shopping-cart"></i>👥 Parcerias</a>
-            <a class="Currículo"href="clientes.html"><i class="fa fa-user"></i>📄 Currículo</a>
-        </div>
-    </div> 
+        <nav class="menu-icons">
+            <h1>
+                <a class="menu-link" href="index.html"></i>🏠 Página Inicial</a>
+                <a class="menu-link" href="cardapio.html"></i>🧾 Cardapio</a>
+                <a class="menu-link" href="cadastro.html"></i>👨‍🍳 Receitas</a>
+                <a class="menu-link" href="menu.html"></i>👥 Nossos Parceiros</a>
+                <a class="menu-link" href="clientes.html"></i>📄 Currículo</a>
+            </h1>
+            </div>
+            </div>
+    </header>
     <main class="container">
         <section class="frase">
             <h1>Contato</h1>
-            <p>Entre em contato conosco sobre qualquer coisa relacionada à nossa empresa ou serviços. Faremos o possível para retornar a você o mais breve possível.</p>
+            <p>Entre em contato conosco sobre qualquer coisa relacionada à nossa empresa ou serviços. Faremos o possível
+                para retornar a você o mais breve possível.</p>
 
             <form>
                 <label>Nome</label>
@@ -40,7 +42,8 @@
                 <input type="email" id="email" name="E-mail" placeholder="Digite seu e-mail" required>
 
                 <label>Comentário</label>
-                <textarea id="comentario" name="Comentário" placeholder="Faça uma pergunta ou deixe uma sugestão"></textarea>
+                <textarea id="comentario" name="Comentário"
+                    placeholder="Faça uma pergunta ou deixe uma sugestão"></textarea>
 
                 <div class="botão">
                     <input type="submit" value="Enviar">

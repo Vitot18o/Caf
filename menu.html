@@ -1,99 +1,63 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
 <head>
-
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/estilos.css">
-    <title>Contato</title>
+    <link rel="stylesheet" href="src/css/estilos.css" type="text/css">
+    <title>Parcerias</title>
+</head>
 
-<body bgcolor="#FFE4B5">
-    <h3>
-        <center><a href="index.html">Voltar para página inicial</a></center>
-    </h3>
-    <center>
-        <h1><b>Nossos parceiros</b></h1>
-    </center>
-    <h1>
-        <p>Importância das parcerias</p>
-    </h1>
-    <p>
-    <h3>Na nossa padaria, acreditamos que a qualidade dos produtos começa muito antes de chegarem às nossas prateleiras.
-        As parcerias que cultivamos com fornecedores locais e especializados são fundamentais para garantir que nossos
-        pães, doces e demais itens sejam feitos com os melhores ingredientes. Ao trabalhar com produtores comprometidos
-        com sustentabilidade, qualidade e práticas artesanais, conseguimos oferecer produtos frescos e saborosos,
-        enquanto apoiamos a economia local e promovemos um impacto positivo na comunidade. Essas parcerias refletem
-        nossa paixão por excelência e nos ajudam a levar até você o melhor da padaria artesanal.</h3>
-    </p>
-    <br><br>
-    <h1>
-        <p>Listas de parceiros</p>
-    </h1>
-    <img src="img/01a3tytx.png" widt="100" height="150">
-    <h2>
-        <p>1- Fazenda Orgânica Terra Verde</p>
-    </h2>
-    <ul>
-        <h3>
-            <li>Descrição: Fornecedora de farinhas orgânicas de alta qualidade, sem o uso de agrotóxicos, garantindo uma
-                base saudável e saborosa para nossos pães e massas.</li>
-        </h3>
-        <h3>
-            <li>Localização: Serra da Mantiqueira, MG.</li>
-        </h3>
-        <h3>
-            <li>Diferencial: Utiliza métodos tradicionais de cultivo, preservando a biodiversidade e garantindo um
-                produto 100% natural.</li>
-        </h3>
-    </ul>
-    <br><br>
-    <img src="img/ir2bxymb.png" widt="100" height="150">
-    <h2>
-        <p>2- Laticínios da Serra</p>
-    </h2>
-    <ul>
-        <h3>
-            <li>Descrição: Produtora de queijos artesanais e manteigas frescas, feitos com leite de vacas criadas em
-                pasto, essenciais para nossas receitas de quiches e pães de queijo.</li>
-        </h3>
-        <h3>
-            <li>Localização: São Roque, SP.</li>
-        </h3>
-        <h3>
-            <li>Diferencial: Queijos premiados, com sabores intensos e texturas únicas, que complementam nossas
-                criações.</li>
-        </h3>
-    </ul>
-    <br><br>
-    <img src="img/q6qp7l9o.png" widt="100" height="150">
-    <h2>
-        <p>3- Fazendo Boa Terra</p>
-    </h2>
-    <ul>
-        <h3>
-            <li>Descrição: Produtora de ovos caipiras de galinhas livres, fornecendo ovos frescos e de alta qualidade
-                para todas as nossas receitas de bolos e doces.</li>
-        </h3>
-        <h3>
-            <li>Localização: Vale do Paraíba, SP.</li>
-        </h3>
-        <h3>
-            <li>Diferencial: Criação sustentável e livre de gaiolas, com foco no bem-estar animal.</li>
-        </h3>
-    </ul>
-    <br>
-    <center>
-        <h3><a href="menu.html"> Ínicio </a></h3>
-    </center>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <h1>Padaria Doce Sabor</h1>
+            <p>Panificadora e Gastronomia</p>
+        </div>
+        <nav class="menu-icons">
+            <h1>
+                <a class="menu-link" href="index.html">🏠 Página Inicial</a>
+                <a class="menu-link" href="cardapio.html">🧾 Cardápio</a>
+                <a class="menu-link" href="cadastro.html">👨‍🍳 Receitas</a>
+                <a class="menu-link" href="clientes.html">📄 Currículo</a>
+                <a class="menu-link" href="contato.html">📞 Contato</a>
+            </h1>
+        </nav>
+    </header>
+
+    <main class="parceiros-container">
+        <h1>Nossos Parceiros</h1>
+        <p>As parcerias são essenciais para garantir a qualidade dos nossos produtos e fortalecer a comunidade local.
+            Conheça nossos principais fornecedores:</p>
+
+
+        <div class="parceiro-card">
+            <img src="./src/img/01a3tytx.png" alt="Fazenda Orgânica Terra Verde" class="parceiro-img">
+            <h2>Fazenda Orgânica Terra Verde</h2>
+            <p><strong>Descrição:</strong> Fornecedora de farinhas orgânicas de alta qualidade, sem uso de agrotóxicos.
+            </p>
+            <p><strong>Localização:</strong> Serra da Mantiqueira, MG</p>
+            <p><strong>Diferencial:</strong> Preserva a biodiversidade e garante um produto 100% natural.</p>
+        </div>
+
+        <div class="parceiro-card">
+            <img src="./src/img/ir2bxymb.png" alt="Laticínios da Serra" class="parceiro-img">
+            <h2>Laticínios da Serra</h2>
+            <p><strong>Descrição:</strong> Produtora de queijos artesanais e manteigas frescas, essenciais para quiches
+                e pães de queijo.</p>
+            <p><strong>Localização:</strong> São Roque, SP</p>
+            <p><strong>Diferencial:</strong> Queijos premiados com sabores intensos e texturas únicas.</p>
+        </div>
+
+        <div class="parceiro-card">
+            <img src="./src/img/q6qp7l9o.png" alt="Fazenda Boa Terra" class="parceiro-img">
+            <h2>Fazenda Boa Terra</h2>
+            <p><strong>Descrição:</strong> Produtora de ovos caipiras de galinhas livres, ideais para bolos e doces.</p>
+            <p><strong>Localização:</strong> Vale do Paraíba, SP</p>
+            <p><strong>Diferencial:</strong> Criação sustentável, focada no bem-estar animal.</p>
+        </div>
+    </main>
 
 </body>
-
-
-
-
-
-
-</form>
-
-</head>
 
 </html>

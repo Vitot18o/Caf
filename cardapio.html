@@ -1,55 +1,67 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/estilos.css">
-    <title>Contato</title>
 
-    </head>
-    <body bgcolor="#FFE4B5	">
-        <h3><center><a href="index.html">Voltar para página inicial</a></center></h3>        
-        <table border="1">
-            <p><h1>Padaria Doce Sabor</h1></p>
-            <h2><p align="center">Cardápio</p></h2>
-            <p align="center">
-            <tr>
-                <td>Salgados</td>
-                <td>Bolos</td>
-                <td>Pães</td>
-                <td>Sanduíches</td>
-                <td>Tortas</td>                               
-            </tr>
-            <tr>
-                <td><img src="img/coxinha.jpeg" height="200" width="380"></td>
-                <td><img src="img/Bolo.jpeg" height="200" width="350"></td>
-                <td><img src="img/Pão.jpg" height="200" width="380"></td>
-                <td><img src="img/sanduba.jpeg" height="200" width="380"></td>
-                <td><img src="img/torta.jpg" height="200" width="380"></td>
-            </tr>
-        </p>
-        </table>
-        <p><h1>Coxinha</h1></p>
-        <h3><p>O tradicional salgado brasileiro, recheado com frango temperado e envolvido em uma massa leve e crocante.</p></h3>
-        <p><b>Preço R$ 8,00 (unidade) | R$ 40,00 (6 unidades)</b></p>
-        <br>
-        <h1><p align="right">Bolo de aniversário</p></h1>
-        <h3><p align="right">Um bolo fofo e úmido, disponível nos sabores chocolate, baunilha ou morango, com recheio de brigadeiro ou creme de baunilha, coberto com chantilly e decorado com confeitos.</p></h3>
-        <p align="right"><b>Preço R$ 80,00 (pequeno) | R$ 150,00 (grande)</b></p>
-        <br>
-        <h1><p>Pão francês</p></h1>
-        <h3><p>O clássico pão francês, crocante por fora e macio por dentro, perfeito para acompanhar o café da manhã ou lanche da tarde.</p></h3>
-        <p><b>R$ 2,00 (unidade) | R$ 10,00 (6 unidades)
-        <br>
-        <h1><p align="right">Sanduíche natural</p></h1>
-        <h3><p align="right">Um lanche leve e saudável, feito com pão integral, recheado com peito de peru, alface, tomate e cenoura ralada, temperado com uma deliciosa maionese caseira.</p></h3>
-        <p align="right"><b>Preço R$ 12,00 (unidade) | R$ 60,00 (6 unidades)</b></p>
-        <br>
-        <h1><p>Torta Holandesa</p></h1>
-        <h3><p>Uma deliciosa sobremesa com base crocante de biscoito, recheio cremoso de baunilha e cobertura de chocolate meio amargo. Perfeita para qualquer ocasião.</p></h3>
-        <p>Preço R$ 25,00 (fatia) | R$ 120,00 (inteira)</p>
-       
-        </b></p>
-        
-    </body>
-        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio do Dia</title>
+    <link rel="stylesheet" href="./src/css/estilos.css" type="text/css">
+</head>
 
-</html>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <h1>Padaria Doce Sabor</h1>
+            <p>Panificadora e Gastronomia</p>
+        </div>
+        <nav class="menu-icons">
+            <h1>
+                <a class="menu-link" href="index.html">🏠 Página Inicial</a>
+                <a class="menu-link" href="contato.html">📞 Contatos</a>
+                <a class="menu-link" href="cadastro.html">👨‍🍳 Receitas</a>
+                <a class="menu-link" href="menu.html">👥 Nossos Parceiros</a>
+                <a class="menu-link" href="clientes.html">📄 Currículo</a>
+            </h1>
+        </nav>
+    </header>
+
+    <main class="cardapio-container">
+        <h1>Cardápio do Dia</h1>
+        <div class="produtos">
+            <div class="produto">
+                <img src="./src/img/coxinha.jpeg" alt="Coxinha">
+                <h3>Coxinha</h3>
+                <p>O tradicional salgado brasileiro, recheado com frango temperado e envolvido em uma massa leve e
+                    crocante.</p>
+                <p><b>R$ 8,00 (unidade) | R$ 40,00 (6 unidades)</b></p>
+            </div>
+            <div class="produto">
+                <img src="./src/img/bolo.jpeg" alt="Bolo de Aniversário">
+                <h3>Bolo de Aniversário</h3>
+                <p>Fofo e úmido, disponível em chocolate, baunilha ou morango, com recheio de brigadeiro ou creme de
+                    baunilha.</p>
+                <p><b>R$ 80,00 (pequeno) | R$ 150,00 (grande)</b></p>
+            </div>
+            <div class="produto">
+                <img src="./src/img/pão.jpg" alt="Pão Francês">
+                <h3>Pão Francês</h3>
+                <p>O clássico pão francês, crocante por fora e macio por dentro. Perfeito para o café da manhã ou
+                    lanche.</p>
+                <p><b>R$ 2,00 (unidade) | R$ 10,00 (6 unidades)</b></p>
+            </div>
+            <div class="produto">
+                <img src="./src/img/sanduba.jpeg" alt="Sanduíche Natural">
+                <h3>Sanduíche Natural</h3>
+                <p>Pão integral recheado com peito de peru, alface, tomate e cenoura, temperado com maionese caseira.
+                </p>
+                <p><b>R$ 12,00 (unidade) | R$ 60,00 (6 unidades)</b></p>
+            </div>
+            <div class="produto">
+                <img src="./src/img/torta.jpg" alt="Torta Holandesa">
+                <h3>Torta Holandesa</h3>
+                <p>Base crocante de biscoito, recheio cremoso de baunilha e cobertura de chocolate meio amargo.</p>
+                <p><b>R$ 25,00 (fatia) | R$ 120,00 (inteira)</b></p>
+            </div>
+        </div>
+    </main>
+</body>
